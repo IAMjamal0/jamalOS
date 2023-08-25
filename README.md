@@ -1,4 +1,5 @@
 <div align="center">
+	<br/>
 	<a href="https://github.com/Flow-Works/FlowOS">
 		<img src="https://raw.githubusercontent.com/Flow-Works/FlowOS/main/public/assets/logo.svg" width="100px">
 	</a>
@@ -15,6 +16,9 @@
     	·
     	<a href="https://github.com/Flow-Works/FlowOS/issues">Request Feature</a>
 	</p>
+ 	<a href="https://github.com/standard/semistandard">
+  	<img src="https://raw.githubusercontent.com/standard/semistandard/master/badge.svg">
+  	</a>
 </div>
 
 <details>
@@ -71,11 +75,13 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    yarn install
    ```
-3. Get ChimeraGPT key: https://discord.gg/chimeragpt
-4. Add `API_KEY` to .env
-5. Run
+3. Run
    ```sh
    yarn start
+   ```
+   or for Windows
+   ```powershell
+   yarn win
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
